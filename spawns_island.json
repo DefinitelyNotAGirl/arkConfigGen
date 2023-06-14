@@ -1,0 +1,47 @@
+{
+    "DinoSpawnEntriesSnow_C" : {
+        "type" : "add",
+        "ManaSpawner" : {
+            "creatures" : [
+                "IceJumper_character_bp_c"
+            ],
+            "weight" : "0.4",
+            "max" : "0.1"
+        },
+        "OwlSpawner" : {
+            "creatures" : [
+                "Owl_Character_BP_Eden_C"
+            ],
+            "weight" : "0.25",
+            "max" : "0.1"
+        },
+        "WolfSpawnerSnow" : {
+            "creatures" : [
+                "Direwolf_Character_BP_Eden_C",
+                "Direwolf_Character_BP_Eden_C",
+                "Direwolf_Character_BP_Eden_C",
+                "Direwolf_Character_BP_Eden_C"
+            ],
+            "weight" : "0.6",
+            "max" : "0.5"
+        }
+    },
+    "DinoSpawnEntriesRedwoods_C" : {
+        "BearSpawner" : {
+            "creatures" : [
+                "Direbear_Character_BP_Rockwell_C"
+            ],
+            "weight" : "0.25",
+            "max" : "0.1"
+        }
+    },
+    "DinoSpawnEntries_InlandWater_C" : {
+        "CrabSpawner" : {
+            "creatures" : [
+                "Crab_Character_BP_C"
+            ],
+            "weight" : "0.4",
+            "max" : "0.25"
+        }
+    }
+}

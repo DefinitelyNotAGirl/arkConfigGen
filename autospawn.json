@@ -1,0 +1,495 @@
+{
+    "rarities" : {
+        "LowTier" : {
+            "weight" : "0.25",
+            "max" : "0.25"
+        },
+        "BossLowTier" : {
+            "weight" : "0.075",
+            "max" : "0.075"
+        },
+        "Tier3" : {
+            "weight" : "0.05",
+            "max" : "0.05"
+        },
+        "Tier4" : {
+            "weight" : "0.01",
+            "max" : "0.01"
+        },
+        "Primal" : {
+            "weight" : "0.01",
+            "max" : "0.01"
+        },
+        "Origin" : {
+            "weight" : "0.01",
+            "max" : "0.01"
+        },
+        "rare" : {
+            "weight" : "0.005",
+            "max" : "0.05"
+        }
+    },
+    "zones" : {
+        "grassland" : [
+            "DinoSpawnEntriesGrassland_C"
+        ],
+        "desert" : [
+            "SE_DinoSpawnEntriesBadlands_C",
+            "SE_DinoSpawnEntriesCanyons_C",
+            "SE_DinoSpawnEntriesDunes_C",
+            "SE_DinoSpawnEntriesGreenDesert_C",
+            "SE_DinoSpawnEntriesMountain_C",
+            "DinoSpawnEntriesOlympus_Dunes",
+            "DinoSpawnEntriesOlympus_Badland"
+        ],
+        "redwoods" : [
+            "DinoSpawnEntriesRedwoods_C"
+        ],
+        "wyvern" : [
+            "SE_DinoSpawnEntriesWyvern_C",
+            "DinoSpawnEntriesOlympus_Wyvern"
+        ],
+        "flyers" : [
+            "DinoSpawnEntriesOlympus_Griffin"
+        ],
+        "mountains" : [
+            "DinoSpawnEntriesMountain_C",
+            "SE_DinoSpawnEntriesMountain_C"
+        ],
+        "flyersLarge" : [
+            "DinoSpawnEntriesQuetz_C",
+            "DinoSpawnEntriesOlympus_Quetz"
+        ],
+        "mountOlympus" : [
+            "DinoSpawnEntriesOlympus_Summit"
+        ],
+        "swamp" : [
+            "DinoSpawnEntries_SwampWater_C",
+            "DinoSpawnEntriesSwamp_C"
+        ],
+        "snow" : [
+            "DinoSpawnEntriesSnow_C",
+            "DinoSpawnEntriesOlympus_Snow"
+        ]
+    },
+    "creatureSets" : {
+        "ACGgrasslandsLowTier" : [
+            "AlphaAllo_Character_BP_C",
+            "AlphaSauropod_Character_BP_C",
+            "AlphaCarno_Character_BP_C",
+            "AlphaDilo_Character_BP_C",
+            "AlphaEquus_Character_BP_C",
+            "AlphaGigant_Character_BP_C",
+            "AlphaRaptor_Character_BP_C",
+            "AlphaRex_Character_BP_C",
+            "AlphaStego_Character_BP_C",
+            "AlphaTherizino_Character_BP_C",
+            "AlphaTrike_Character_BP_C",
+            "AlphaDodo_Character_BP_C",
+            "AlphaPara_Character_BP_C",
+            "Alpha_Iguanodon_Character_BP_C",
+            "AlphaDimorph_Character_BP_C",
+            "AlphaEnforcer_Character_BP_Child_C",
+            "AlphaGasBags_Character_BP_Child_C",
+            "AlphaIndom_Character_BP_Child_2_C",
+            "AlphaDeinonychus_Character_BP_Child_C",
+            "ToxicRaptor_Character_BP_C",
+            "Toxic_Phiomia_Character_BP_C",
+            "ToxicDodo_Character_BP_C",
+            "ToxicDodo_Character_BP_Zom_C",
+            "Toxic_Para_Character_BP_Child_C",
+            "ApexTherizino_Character_BP_C",
+            "ApexRex_Character_BP_C",
+            "ApexRaptor_Character_BP_C",
+            "ApexGigant_Character_BP_C",
+            "ApexDilo_Character_BP_C",
+            "ApexCarno_Character_BP_C",
+            "ApexAllo_Character_BP_C",
+            "ApexEnforcer_Character_BP_Child_C",
+            "ApexIndom_Character_BP_Child_C",
+            "ApexDeinonychus_Character_BP_Child_C",
+            "FabledTrike_Character_BP_C",
+            "FabledStego_Character_BP_C",
+            "FabledStag_Character_BP_C",
+            "FabledSauropod_Character_BP_C",
+            "FabledEquus_Character_BP_Unicorn_C",
+            "FabledEquus_Character_BP_C",
+            "FabledTherizino_Character_BP_Child_C",
+            "FabledJerboaMother_Character_BP_C",
+            "FabledJerboa_Character_BP_C",
+            "FabledGasBags_Character_BP_Child_C",
+            "OmegaAllo_Character_BP_C",
+            "OmegaIndom_Character_BP_C",
+            "OmegaReaper_Character_BP_Male_C",
+            "Omega_Rex_Character_BP_C",
+            "OmegaSpino_Character_BP_C"
+        ],
+        "ACGswampLowTier" : [
+            "AlphaPara_Character_BP_C",
+            "PFAlphaBasilisk_Character_BP_Child_C",
+            "AlphaParacer_Character_BP_Child_C",
+            "Alpha_BogSpider_Character_BP_Child_C",
+            "ToxicRaptor_Character_BP_C",
+            "Toxic_Scorpion_Character_BP_Child_C",
+            "Toxic_Toad_Character_BP_C",
+            "ApexScorpion_Character_BP_C",
+            "ApexSarco_Character_BP_C",
+            "ApexRaptor_Character_BP_C",
+            "ApexKaprosuchus_Character_BP_C",
+            "ApexDilo_Character_BP_C",
+            "ApexBaryonyx_Character_BP_C",
+            "PFApexBasilisk_Character_BP_Child_C",
+            "FabledToad_Character_BP_C",
+            "FabledParacer_Character_BP_Child_C",
+            "Fabled_BogSpider_Character_BP_Child_C"
+        ],
+        "ACGredwoodsLowTier" : [
+            "AlphaDilo_Character_BP_C",
+            "AlphaStag_Character_BP_C",
+            "AlphaRaptor_Character_BP_C",
+            "AlphaRex_Character_BP_C",
+            "AlphaSaber_Character_BP_C",
+            "AlphaTerrorBird_Character_BP_C",
+            "AlphaTherizino_Character_BP_C",
+            "AlphaThylacoleo_Character_BP_Child_C",
+            "AlphaTroodon_Character_BP_C",
+            "AlphaDimorph_Character_BP_C",
+            "AlphaParacer_Character_BP_Child_C",
+            "AlphaGacha_Character_BP_Child_C",
+            "ToxicDirebear_Character_BP_C",
+            "ToxicRaptor_Character_BP_C",
+            "ToxicSaber_Character_BP_Child_C",
+            "ToxicTerrorBird_Character_BP_Child_C",
+            "Toxic_Para_Character_BP_Child_C",
+            "ToxicThylacoleo_Character_BP_Child_C",
+            "ApexThylacoleo_Character_BP_Child_C",
+            "ApexTherizino_Character_BP_C",
+            "ApexTerrorBird_Character_BP_C",
+            "ApexSaber_Character_BP_C",
+            "ApexRex_Character_BP_C",
+            "ApexRaptor_Character_BP_C",
+            "ApexDirebear_Character_BP_C",
+            "ApexDilo_Character_BP_C",
+            "ApexCarno_Character_BP_C",
+            "ApexAllo_Character_BP_C",
+            "FabledStag_Character_BP_C",
+            "FabledTherizino_Character_BP_Child_C",
+            "FabledParacer_Character_BP_Child_C",
+            "FabledGacha_Character_BP_Child_C"
+        ],
+        "ACGmountainsLowTier" : [
+            "AlphaAnkylo_Character_BP_V2",
+            "AlphaDoed_Character_BP_C",
+            "AlphaKentro_Character_BP_C",
+            "AlphaSaber_Character_BP_C",
+            "AlphaHyaenodon_Character_BP_C",
+            "Toxic_Scorpion_Character_BP_Child_C",
+            "ApexScorpion_Character_BP_C",
+            "FabledAnkylo_Character_BP_V2_C"
+        ],
+        "ACGFlyersLowTier" : [
+            "AlphaArgent_Character_BP_C",
+            "AlphaTapejara_Character_BP_C",
+            "ApexGriffin_Character_BP_C",
+            "ApexArgent_Character_BP_C",
+            "FabledTapejara_Character_BP_C",
+            "FabledArgent_Character_BP_C",
+            "NewFabledPtero_Character_BP_C",
+            "FabledGrifficorn_Character_BP_C",
+            "PosionGriffin_Character_BP_C",
+            "LightGriffin_Character_BP_C",
+            "IceGriffin_Character_BP_C",
+            "FireGriffin_Character_BP_C",
+            "ElectricGriffin_Character_BP_C",
+            "DarkGriffin_Character_BP_C",
+            "DarkMicroraptor_Character_BP_C",
+            "ElectricMicroraptor_Character_BP_C",
+            "FlameMicroraptor_Character_BP_C",
+            "IceMicroraptor_Character_BP_C",
+            "LightMicroraptor_Character_BP_C",
+            "PoisonMicroraptor_Character_BP_C",
+            "DarkArcha_Character_BP_C",
+            "LightArcha_Character_BP_C",
+            "ElementalElectricArcha_Character_BP_C",
+            "ElementalFireArcha_Character_BP_C",
+            "ElementalIceArcha_Character_BP_C",
+            "ElementalPoisonArcha_Character_BP_C",
+            "LightLanternBird_Character_BP_C",
+            "PoisonLanternBird_Character_BP_C",
+            "IceLanternBird_Character_BP_C",
+            "ElectricLanternBird_Character_BP_C",
+            "FireLanternBird_Character_BP_C",
+            "DarkLanternBird_Character_BP_C"
+        ],
+        "ACGFlyersSnowLowTier" : [
+            "AlphaOwl_Character_BP_Child_C",
+            "ApexOwl_Character_BP_Child_C",
+            "FabledOwl_Character_BP_Child_C"
+        ],
+        "ACGDesertLowTier" : [
+            "AlphaMantis_Character_BP_C",
+            "AlphaScorpion_Character_BP_C",
+            "AlphaSpiderS_Character_BP_C",
+            "AlphaSpineyLizard_Character_BP_C",
+            "AlphaThylacoleo_Character_BP_Child_C",
+            "AlphaYutyrannus_Character_BP_C",
+            "AlphaMegatherium_Character_BP_C",
+            "AlphaHyaenodon_Character_BP_C",
+            "ToxicRaptor_Character_BP_C",
+            "ToxicDirewolf_Character_BP_Child_C",
+            "ToxicSaber_Character_BP_Child_C",
+            "ApexHyaenodon_Character_BP_C",
+            "ApexYutyrannus_Character_BP_C",
+            "ApexDaeodon_Character_BP_C",
+            "ApexThylacoleo_Character_BP_Child_C",
+            "ApexTerrorBird_Character_BP_C",
+            "ApexSpineyLizard_Character_BP_C",
+            "ApexScorpion_Character_BP_C",
+            "ApexSaber_Character_BP_C",
+            "ApexRex_Character_BP_C",
+            "ApexRaptor_Character_BP_C",
+            "ApexGigant_Character_BP_C",
+            "ApexDirewolf_Character_BP_C",
+            "ApexDilo_Character_BP_C",
+            "ApexCarno_Character_BP_C",
+            "ApexAllo_Character_BP_C",
+            "ApexSpindles_Character_BP_Child_C",
+            "FabledRockGolem_Character_BP_C",
+            "FabledMantis_Character_BP_C",
+            "Fabledcamelsaurus_Character_BP_C",
+            "FabledAnkylo_Character_BP_V2_C",
+            "FabledCherufe_Character_BP_Child_C"
+        ],
+        "ACGSnowLowTier" : [
+            "AlphaAllo_Character_BP_C",
+            "AlphaCarno_Character_BP_C",
+            "AlphaDilo_Character_BP_C",
+            "AlphaDirebear_Character_BP_C",
+            "AlphaDirewolf_Character_BP_C",
+            "AlphaGigant_Character_BP_C",
+            "AlphaMammoth_Character_BP_C",
+            "AlphaRaptor_Character_BP_C",
+            "AlphaRex_Character_BP_C",
+            "AlphaRhino_Character_BP_C",
+            "AlphaYutyrannus_Character_BP_C",
+            "AlphaMegatherium_Character_BP_C",
+            "AlphaIndom_Character_BP_Child_2_C",
+            "Alpha_Shapeshifter_Small_Character_BP_Child_C",
+            "ApexYutyrannus_Character_BP_C",
+            "ApexDaeodon_Character_BP_C",
+            "ApexRex_Character_BP_C",
+            "ApexRaptor_Character_BP_C",
+            "ApexGigant_Character_BP_C",
+            "ApexDirewolf_Character_BP_C",
+            "ApexDirebear_Character_BP_C",
+            "ApexDilo_Character_BP_C",
+            "ApexAllo_Character_BP_C",
+            "ApexIndom_Character_BP_Child_C",
+            "FabledStag_Character_BP_C",
+            "FabledMammoth_Character_BP_C",
+            "Fabled_Rhino_Character_BP_Child_C"
+        ],
+        "ACGHorseRare" : [
+            "MalinUnicorn_Character_BP_C",
+            "Legendary_Pegasus_Character_BP_Child_C"
+        ],
+        "ACGRiverLowTier" : [
+            "AlphaBaryonyx_Character_BP_C",
+            "AlphaBeaver_Character_BP_C",
+            "AlphaSpino_Character_BP_C",
+            "ApexSpino_Character_BP_C",
+            "ApexBaryonyx_Character_BP_C",
+            "ElderOtter_Character_BP_C"
+        ],
+        "ACGgrasslandsT3" : [
+            "EvilEquus_Character_BP_C",
+            "EvilSheep_Character_BP_C",
+            "EvilMonkey_Character_BP_C",
+            "EvilSpineyLizard_Character_BP_C",
+            "EvilPara_Character_BP_C",
+            "CelestialRex_Character_BP_C",
+            "CelestialAllo_Character_BP_Child_C",
+            "CelestialTherizino_Character_BP_C"
+        ],
+        "ACGswampT3" : [
+            "Evil_Kaprosuchus_Character_BP_C"
+        ],
+        "ACGsnowdesertT3" : [
+            "EvilDaeodon_Character_BP_C",
+            "EvilHyaenodon_Character_BP_C",
+            "EvilMegatherium_Character_BP_C",
+            "CelestialRex_Character_BP_C",
+            "CelestialYutyrannus_Character_BP_C",
+            "CelestialThylacoleo_Character_BP_Child_C",
+            "CelestialAllo_Character_BP_Child_C",
+            "Celestial_Direbear_Character_BP_C",
+            "Celestial_ShapeShifter_Character_BP_C"
+        ],
+        "ACGFlyerT3" : [
+            "CelestialArgent_Character_BP_C",
+            "CelestialGriffin_Character_BP_C",
+            "CelestialRockDrake_Character_BP_Child_C"
+        ],
+        "ACGWyvernLowTier" : [
+            "AlphaFireWyvern_Character_BP_Fire_C",
+            "AlphaWyvern_Character_BP_Lightning_C",
+            "AlphaWyvern_Character_BP_Poison_C",
+            "ApexWyvern_Character_BP_Poison_C",
+            "ApexWyvern_Character_BP_Lightning_C",
+            "ApexWyvern_Character_BP_Fire_C",
+            "OmegaWyvern_Character_BP_Fire_C",
+            "OmegaWyvern_Character_BP_Ice_C",
+            "OmegaWyvern_Character_BP_Lightning_C",
+            "OmegaWyvern_Character_BP_Poison_C",
+            "NecroticWyvern_Character_BP_ZombieFire_C",
+            "NecroticWyvern_Character_BP_ZombieIce_C",
+            "NecroticWyvern_Character_BP_ZombieLightning_C",
+            "NecroticWyvern_Character_BP_ZombiePoison_C"
+        ],
+        "ACGFlyerLargeBossLowTier" : [
+            "PFBDodoWyvern_Character_BP_C",
+            "PFBDragon_Character_BP_C",
+            "PFBManticore_Character_BP_New_C",
+            "PFBAlphaDodoWyvern_Character_BP_Child_C",
+            "PFBAlphaDragon_Character_BP_Child_C",
+            "PFBAlphaManticore_Character_BP_New_Child_C",
+            "PFBApexDodoWyvern_Character_BP_Child_C",
+            "PFBApexDragon_Character_BP_Child_C",
+            "PFBApexManticore_Character_BP_New_Child_C"
+        ],
+        "ACGFlyerLargeBossPrimal" : [
+            "PFBPrimalDodoWyvern_Character_BP_C",
+            "PFBPrimalDragon_Character_BP_C",
+            "PFBPrimalManticore_Character_BP_New_C"
+        ],
+        "ACGFlyerLargeBossT4" : [
+            "PFBChaosDodoWyvern_Character_BP_Child_C",
+            "PFBChaosDragon_Character_BP_Child_C",
+            "PFBChaosManticore_Character_BP_New_Child_C",
+            "PFBSpiritDodoWyvern_Character_BP_Child_C",
+            "PFBSpiritDragon_Character_BP_Child_C",
+            "PFBSpiritManticore_Character_BP_New_Child_C"
+        ],
+        "ACGgrasslandsT4" : [
+            "ChaosRex_Character_BP_Child_C",
+            "Chaos_Spino_Character_BP_C",
+            "Chaos_Thylacoleo_Character_BP_C",
+            "SpiritRex_Character_BP_Child_C",
+            "Spirit_Spino_Character_BP_C",
+            "Spirit_Thylacoleo_Character_BP_C",
+            "PFBChaosDodoRex_Character_BP_Child_C",
+            "Chaos_DodoXenomorph_Character_BP_Male_Tamed_C",
+            "PFBSpiritDodoRex_Character_BP_Child_C",
+            "Spirit_DodoXenomorph_Character_BP_Male_Tamed_C"
+        ],
+        "ACGgrasslandsBossLowTier" : [
+            "PFBDodoRex_Character_BP_C",
+            "DodoXenomorph_Character_BP_Male_Tamed_C",
+            "PFBAlphaDodoRex_Character_BP_Child_C",
+            "AlphaDodoXenomorph_Character_BP_Male_Tamed_C",
+            "PFBApexDodoRex_Character_BP_Child_C",
+            "ApexDodoXenomorph_Character_BP_Male_Tamed_C"
+        ],
+        "ACGgenericPrimal" : [
+            "PFBPrimalDodoRex_Character_BP_C",
+            "PrimalDodoXenomorph_Character_BP_Male_Tamed_C",
+            "PrimalKentro_Character_BP_C",
+            "PrimalThylacoleo_Character_BP_Child_C",
+            "PrimalRex_Character_BP_C",
+            "PrimalRaptor_Character_BP_C",
+            "PrimalGigant_Character_BP_C",
+            "PrimalDirebear_Character_BP_C",
+            "PrimalCarno_Character_BP_C",
+            "PrimalAllo_Character_BP_C",
+            "PFPrimalRockDrake_Character_BP_Child_C"
+        ],
+        "ACGOriginFlyers" : [
+            "OriginArgent_Character_BP_C",
+            "OriginWyvern_Character_BP_Fire_C"
+        ],
+        "ACGOriginGeneric" : [
+            "OriginCarno_Character_BP_C",
+            "OriginDirebear_Character_BP_C",
+            "OriginRaptor_Character_BP_C",
+            "OriginRex_Character_BP_C"
+        ],
+        "ACGOriginSpecial" : [
+            "OriginKairuku_Character_BP_C",
+            "OriginSpino_Character_BP_C"
+        ],
+        "ACGFlyerT4" : [
+            "WyvernGuardian_Character_BP_Base_Child_Chaos_Tamed_C",
+            "Chaos_Griffin_Character_BP_C",
+            "WyvernGuardian_Character_BP_Child_Spirit_Tamed_C",
+            "Spirit_Griffin_Character_BP_C"
+        ]
+    },
+    "regions" : {
+        "grassland" : {
+            "ACGgrasslandsLowTier" : "LowTier",
+            "ACGgrasslandsBossLowTier" : "BossLowTier",
+            "ACGgrasslandsT3" : "Tier3",
+            "ACGgrasslandsT4" : "Tier4",
+            "ACGgenericPrimal" : "Primal",
+            "ACGOriginGeneric" : "Origin",
+            "ACGHorseRare" : "rare"
+        },
+        "desert" : {
+            "ACGgrasslandsBossLowTier" : "BossLowTier",
+            "ACGgrasslandsT3" : "Tier3",
+            "ACGgrasslandsT4" : "Tier4",
+            "ACGgenericPrimal" : "Primal",
+            "ACGOriginGeneric" : "Origin",
+            "ACGDesertLowTier" : "LowTier",
+            "ACGsnowdesertT3" : "Tier3",
+            "ACGSnowLowTier" : "LowTier"
+        },
+        "redwoods" : {
+            "ACGredwoodsLowTier" : "LowTier",
+            "ACGgenericPrimal" : "Primal",
+            "ACGOriginGeneric" : "Origin",
+            "ACGgrasslandsBossLowTier" : "BossLowTier",
+            "ACGHorseRare" : "rare"
+        },
+        "mountains" : {
+            "ACGmountainsLowTier" : "LowTier"
+        },
+        "snow" : {
+            "ACGSnowLowTier" : "LowTier",
+            "ACGsnowdesertT3" : "Tier3",
+            "ACGgrasslandsT4" : "Tier4",
+            "ACGgenericPrimal" : "Primal",
+            "ACGOriginGeneric" : "Origin",
+            "PFBGorilla_Character_BP_Tameable_C" : "BossLowTier",
+            "PFBAlphaGorilla_Character_BP_Tameable_Child_C" : "BossLowTier",
+            "PFBApexGorilla_Character_BP_Tameable_Child_C" : "BossLowTier",
+            "PFBPrimalGorilla_Character_BP_Tameable_C" : "Primal",
+            "PFBChaosGorilla_Character_BP_Tameable_Child_C" : "Tier4",
+            "PFBSpiritGorilla_Character_BP_Tameable_Child_C   " : "Tier4",
+            "ACGHorseRare" : "rare"
+        },
+        "flyers" : {
+            "ACGFlyersLowTier" : "LowTier",
+            "ACGFlyerT3" : "Tier3",
+            "ACGFlyerT4" : "Tier4"
+        },
+        "flyersLarge" : {
+            "ACGFlyerLargeBossLowTier" : "BossLowTier",
+            "ACGFlyerLargeBossPrimal" : "Primal",
+            "ACGFlyerLargeBossT4" : "Tier4"
+        },
+        "swamp" : {
+            "ACGswampLowTier" : "LowTier",
+            "ACGswampT3" : "Tier3",
+            "PFBSpiderL_Character_BP_Tameable_C" : "BossLowTier",
+            "PFBAlphaSpiderL_Character_BP_Tameable_Child_C" : "BossLowTier",
+            "PFBApexSpiderL_Character_BP_Tameable_Child_C" : "BossLowTier",
+            "PFBPrimalSpiderL_Character_BP_Tameable_C" : "Primal",
+            "PFBChaosSpiderL_Character_BP_Tameable_Child_C" : "Tier4",
+            "PFBSpiritSpiderL_Character_BP_Tameable_Child_C" : "Tier4"
+        },
+        "wyvern" : {
+            "ACGWyvernLowTier" : "LowTier"
+        }
+    }
+}
