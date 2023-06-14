@@ -1,0 +1,10 @@
+#c/c++
+build/
+
+#exec
+configGen
+
+#test files
+game.ini
+spawns.json
+stacks.json
