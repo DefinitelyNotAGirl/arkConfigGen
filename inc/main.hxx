@@ -34,10 +34,12 @@
 
 std::string genSpawns(json& j);
 std::string genStacks(json& j);
+std::string genAutospawn(json& j);
 
 extern bool seperateFiles;
 extern std::string json_all;
 extern std::string json_spawns;
 extern std::string json_stacks;
+extern std::string json_autospawn;
 extern std::string output;
 

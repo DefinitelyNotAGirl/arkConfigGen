@@ -61,6 +61,11 @@ cargparse::handlertype handler_stacks(CARGPARSE_HANDLER_ARGS)
     json_stacks = args.front();
     std::cout << "stack config file: " << args.front() << std::endl;
 }
+cargparse::handlertype handler_autospawn(CARGPARSE_HANDLER_ARGS)
+{
+    json_autospawn = args.front();
+    std::cout << "autospawn config file: " << args.front() << std::endl;
+}
 cargparse::handlertype handler_output(CARGPARSE_HANDLER_ARGS)
 {
     output = args.front();
@@ -81,6 +86,7 @@ void helpout()
     std::cout << "--seperate (same as -seperate & -s): tells the program to use seperate config files for spawns and stacks" << std::endl << std::endl;
     std::cout << "--stacks (same as -stacks) specifies the stack config file (ie: stacks.json)" << std::endl << std::endl;
     std::cout << "--spawns (same as -spawns) specifies the spawn config file (ie: spawns.json)" << std::endl << std::endl;
+    std::cout << "--autospawn (same as -autospawn) specifies the autospawn config file (ie: autospawn.json)" << std::endl << std::endl;
     std::cout << "--input (same as -input & -i) specifies the input file if --seperate is not specified" << std::endl << std::endl;
     std::cout << "--output (same as -output & -o) specifies the output file" << std::endl << std::endl;
     std::cout << "usage example: " << std::endl;
@@ -118,6 +124,7 @@ int main(int argc, char** argv)
 
     ins.addParameter(false,1,"--stacks",&handler_stacks);
     ins.addParameter(false,1,"--spawns",&handler_spawns);
+    ins.addParameter(false,1,"--autospawn",&handler_autospawn);
 
     ins.unknownHandler = &unkownArgHandler;
 
@@ -133,6 +140,11 @@ int main(int argc, char** argv)
         if(json_stacks == "")
         {
             std::cerr << "Error: no stack input file specified" << std::endl;
+            exit(-1);
+        }
+        if(json_autospawn == "")
+        {
+            std::cerr << "Error: no autospawn input file specified" << std::endl;
             exit(-1);
         }
     }
@@ -157,8 +169,10 @@ int main(int argc, char** argv)
     {
         json stacks = jsonLoad(json_stacks);
         json spawns = jsonLoad(json_spawns);
+        json autospawn = jsonLoad(json_autospawn);
 
         content += genSpawns(spawns);
+        content += genAutospawn(autospawn);
         content += genStacks(stacks);
     }
     else
@@ -167,6 +181,7 @@ int main(int argc, char** argv)
 
         content += genSpawns(all["spawns"]);
         content += genStacks(all["stacks"]);
+        content += genAutospawn(all["autospawn"]);
     }
 
     file outfile(output);

@@ -34,4 +34,5 @@ bool seperateFiles = false;
 std::string json_all = "";
 std::string json_spawns = "";
 std::string json_stacks = "";
+std::string json_autospawn = "";
 std::string output = "";
