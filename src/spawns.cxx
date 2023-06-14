@@ -38,9 +38,26 @@ std::string genSpawns(json& j)
 
     for(json& region : j)
     {
-        res += "ConfigAddNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\""+region.data+"\",NPCSpawnEntries=(";
+        if(!region.hasEntry("type"))
+        {
+            regtype_add: ;
+            res += "ConfigAddNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\""+region.data+"\",NPCSpawnEntries=(";
+        }
+        else
+        {
+            if(std::string(region["type"]) == "add")
+                goto regtype_add;
+            else if(std::string(region["type"]) == "subtract")
+                res += "ConfigSubtractNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\""+region.data+"\",NPCSpawnEntries=(";
+            else if(std::string(region["type"]) == "override")
+                res += "ConfigOverrideNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\""+region.data+"\",NPCSpawnEntries=(";
+            else
+                error("invalid region config type id \""+std::string(region["type"])+"\"");
+        }
         for(json& spawner : region)
         {
+            if(spawner.data == "type")
+                continue;
             res += "(AnEntryName=\""+spawner.data+"\",EntryWeight="+std::string(spawner["weight"])+",NPCsToSpawnStrings=(";
             std::cout << "adding " << spawner.data << " to " << region.data << "..." << std::endl;
             for(json& creature : spawner["creatures"])
@@ -53,6 +70,8 @@ std::string genSpawns(json& j)
         std::list<std::string> defined;
         for(json& spawner : region)
         {
+            if(spawner.data == "type")
+                continue;
             for(json& creature : spawner["creatures"])
             {
                 for(std::string c : defined)
